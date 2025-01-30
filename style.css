@@ -1,7 +1,7 @@
 body {
   background-color: #000000;
   background-image: url(./assets/background.png);
-  color: #fff;
+  color: #ffffff;
   animation: fadeIn 2s ease-in-out;
   overflow: hidden;
 }
