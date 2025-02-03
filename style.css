@@ -111,14 +111,13 @@ h4 {
   margin-block-start: -10px;
   margin-block-end: 1.33em;
   margin-inline-start: 3px;
-  margin-inline-end: 0px;
   unicode-bidi: isolate;
 }
 .btn:first-child {
   margin-right: 15px;
 }
 .btn {
-  margin: 0px 15px 0px 0px;
+  margin: 1px 15px 1px 1px;
   padding: 10px 23px;
   display: inline-block;
   background: #7c28ca;
