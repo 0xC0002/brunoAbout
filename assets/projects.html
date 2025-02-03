@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos 🎈</title>
     <link rel="stylesheet" href="../style.css">
-
+    <script src="../script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
-    <script src="../script.js"></script>
+
 </head>
 <body>
+    <div id="particles-js"></div>
+
     <section class="projects">
         <h1>Projetos</h1>
         <div class="project-cards">
@@ -39,5 +41,18 @@
             </div>
         </div>
     </section>
+    <script src="particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 50, density: { enable: true, value_area: 800 } },
+                color: { value: "#adadad" },
+                shape: { type: "circle" },
+                opacity: { value: 0.7, random: true },
+                size: { value: 5, random: true }, /* size */
+                move: { enable: true, speed: 3 } /* velocidade */
+            },
+        });
+        </script>
 </body>
 </html>

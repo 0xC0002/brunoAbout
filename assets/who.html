@@ -14,6 +14,8 @@
         <script src="../script.js"></script>
 </head>
 <body>
+    <div id="particles-js"></div>
+
     <section class="heroAbout">
         <div class="hero-textAbout" bis_skin_checked="1">
             <h2>Olá</h2>
@@ -28,6 +30,18 @@
     </div>
 </div>
     </section>
-    
+    <script src="particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 50, density: { enable: true, value_area: 800 } },
+                color: { value: "#adadad" },
+                shape: { type: "circle" },
+                opacity: { value: 0.7, random: true },
+                size: { value: 5, random: true }, /* size */
+                move: { enable: true, speed: 3 } /* velocidade */
+            },
+        });
+    </script>
 </body>
 </html>
