@@ -3,7 +3,6 @@ body {
   background-image: url(./assets/background.png);
   color: #ffffff;
   animation: fadeIn 2s ease-in-out;
-  overflow: hidden;
 }
 @keyframes fadeIn {
   from {
