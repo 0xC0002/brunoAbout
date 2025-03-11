@@ -212,15 +212,6 @@ h4 {
   color: #fff;
   text-decoration: underline;
 }
-#particles-js {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  pointer-events: none;
-}
 .styled-wrapper .button {
   display: block;
   position: relative;
