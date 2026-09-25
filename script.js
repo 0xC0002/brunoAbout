@@ -1,4 +1,4 @@
-const title="Olá! Organizado, proativo e inovador, me chamo Bruno Antunes.";
+const title="Olá! Sou Bruno Antunes, apaixonado por tecnologia, dados e inovação.";
 const target=document.getElementById("typewriter");let i=0;
 function type(){if(!target||i>title.length)return;target.textContent=title.slice(0,i++);setTimeout(type,i<title.length?42:0)}
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add("is-visible");observer.unobserve(e.target)}}),{threshold:.12});
