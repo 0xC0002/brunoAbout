@@ -1,236 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfólio de Bruno Antunes.">
-    <title>Bruno Antunes - Portfólio</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bruno Antunes | Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="progress-bar" aria-hidden="true"></div>
+<div class="progress-bar"></div>
+<header class="site-header"><div class="header-actions">
+<a class="contact-button" href="https://wa.me/5521974408582" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i><span>WhatsApp</span></a>
+<a class="contact-button" href="mailto:brunoantunesrj@gmail.com"><i class="bi bi-envelope"></i><span>E-mail</span></a>
+<a class="contact-button" href="https://github.com/0xC0002" target="_blank" rel="noopener"><i class="bi bi-github"></i><span>GitHub</span></a>
+<button class="theme-button" id="themeToggle" type="button" aria-label="Ativar modo escuro"><i class="bi bi-moon-stars-fill"></i></button>
+</div></header>
 
-    <header class="site-header">
-        <a class="logo" href="https://github.com/0xC0002" target="_blank" rel="noopener noreferrer" aria-label="Abrir GitHub">
-            BA.<span class="logo-hint">GitHub ↗</span>
-        </a>
+<main>
+<section id="inicio" class="hero container-fluid"><div class="hero-inner container"><div class="row align-items-center g-5">
+<div class="col-lg-8"><div class="hero-content reveal">
+<p class="eyebrow">PORTFÓLIO / BRUNO ANTUNES</p>
+<h1><span id="typewriter"></span><span class="cursor"></span></h1>
+<p class="hero-description"></p>
+<div class="opportunity-card"><div class="opportunity-icon"><i class="bi bi-compass"></i></div><div>
+<span class="opportunity-label">ABERTO A NOVAS OPORTUNIDADES</span>
+<div class="opportunity-tags"><span>Administração</span><span>Suporte técnico</span><span>Tecnologia &amp; Dados</span><span>Estágio</span></div>
+</div></div>
+<a class="cv-button" href="assets/curriculo-bruno-antunes.pdf" download><i class="bi bi-file-earmark-pdf"></i>Baixar currículo<i class="bi bi-arrow-down-short"></i></a>
+</div></div>
+<div class="col-lg-4"><div class="hero-avatar reveal reveal-delay"><div class="avatar-glow"></div><img src="assets/avatar.png" alt="Avatar de Bruno Antunes"></div></div>
+</div></div>
+<div class="scroll-indicator"><span>SCROLL PARA EXPLORAR</span><i class="bi bi-chevron-double-down"></i><span class="scroll-line"></span></div>
+</section>
 
-        <div class="header-actions">
-            <a class="contact-button" href="https://wa.me/5521974408582" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-                <i class="bi bi-whatsapp"></i><span>WhatsApp</span>
-            </a>
-            <a class="contact-button" href="mailto:brunoantunesrj@gmail.com" aria-label="E-mail">
-                <i class="bi bi-envelope"></i><span>E-mail</span>
-            </a>
-        </div>
-    </header>
-    <main>
-        <section id="inicio" class="hero container-fluid">
-            <div class="hero-inner container">
-                <div class="row align-items-center g-5">
-                    <div class="col-lg-8">
-                        <div class="hero-content reveal">
-                            <p class="eyebrow">PORTFÓLIO / BRUNO ANTUNES</p>
-                            <h1><span id="typewriter"></span><span class="cursor" aria-hidden="true"></span></h1>
-                            <p class="hero-description">
-                                Tecnologia, dados e automação para transformar tarefas complexas
-                                em soluções simples, eficientes e inteligentes.
-                            </p>
-                            <a class="cv-button" href="assets/brunoAF.pdf" download>
-                                <i class="bi bi-file-earmark-pdf"></i>
-                                <span>Baixar currículo</span>
-                                <i class="bi bi-arrow-down-short"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="hero-avatar reveal reveal-delay">
-                            <div class="avatar-glow"></div>
-                            <img src="assets/avatar.png" alt="Avatar representando Bruno Antunes">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="scroll-indicator" aria-hidden="true">
-                <span>SCROLL PARA EXPLORAR</span>
-                <i class="bi bi-chevron-double-down"></i>
-                <span class="scroll-line"></span>
-            </div>
-        </section>
-        <section id="formacao" class="section content-section container">
-            <div class="section-heading reveal">
-                <span class="section-number">01</span>
-                <div><p class="eyebrow">FORMAÇÃO</p><h2>Formação Acadêmica</h2></div>
-            </div>
-            <div class="timeline">
-                <article class="timeline-item reveal">
-                    <span class="timeline-dot"></span>
-                    <div class="timeline-date">Em andamento</div>
-                    <div class="card">
-                        <div class="d-flex flex-wrap justify-content-between gap-3">
-                            <div>
-                                <h3>Análise e Desenvolvimento de Sistemas</h3>
-                                <p class="institution">Universidade Veiga de Almeida — UVA</p>
-                            </div>
-                            <span class="course-status current">Em andamento</span>
-                        </div>
-                        <p>
-                            Formação voltada para desenvolvimento de software, lógica,
-                            banco de dados e construção de soluções tecnológicas.
-                        </p>
-                        <div class="expected-date">
-                            <i class="bi bi-calendar3"></i>
-                            Conclusão prevista: <strong>mai/2029</strong>
-                        </div>
-                    </div>
-                </article>
-                <article class="timeline-item reveal">
-                    <span class="timeline-dot"></span>
-                    <div class="timeline-date">Cursos extracurriculares</div>
-                    <div class="row g-3">
-                        <div class="col-md-4">
-                            <article class="course-card h-100">
-                                <div class="senac-brand">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Senac_logo.svg" alt="SENAC">
-                                </div>
-                                <span class="course-status">Finalizado</span>
-                                <h3>Programação em Python</h3>
-                                <p class="institution">SENAC</p>
-                                <p class="course-mode"><i class="bi bi-moon-stars"></i> Presencial · Noturno</p>
-                            </article>
-                        </div>
-                        <div class="col-md-4">
-                            <article class="course-card h-100">
-                                <div class="senac-brand">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Senac_logo.svg" alt="SENAC">
-                                </div>
-                                <span class="course-status">Finalizado</span>
-                                <h3>Analista de Dados</h3>
-                                <p class="institution">SENAC</p>
-                                <p class="course-mode"><i class="bi bi-moon-stars"></i> Presencial · Noturno</p>
-                            </article>
-                        </div>
-                        <div class="col-md-4">
-                            <article class="course-card h-100">
-                                <div class="senac-brand">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Senac_logo.svg" alt="SENAC">
-                                </div>
-                                <span class="course-status">Finalizado</span>
-                                <h3>Excel com IA</h3>
-                                <p class="institution">SENAC</p>
-                                <p class="course-mode"><i class="bi bi-moon-stars"></i> Presencial · Noturno</p>
-                            </article>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <section id="experiencias" class="section content-section experience-section container-fluid">
-            <div class="container">
-                <div class="section-heading reveal">
-                    <span class="section-number">02</span>
-                    <div><p class="eyebrow">TRAJETÓRIA</p><h2>Experiências Profissionais</h2></div>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                        <article class="experience-card reveal h-100">
-                            <div class="experience-top">
-                                <span class="period">1 ano e 6 meses</span>
-                                <span class="tag">Tecnologia &amp; Administração</span>
-                            </div>
-                            <h3>MAG Seguros</h3>
-                            <p class="role">Gestão e Governança de TI</p>
-                            <p>
-                                Gestão de pagamentos de contratos de tecnologia, relacionamento
-                                com fornecedores, análise de documentos e apoio a processos administrativos.
-                            </p>
-                            <div class="skills">
-                                <span>Excel</span><span>Power BI</span><span>PowerPoint</span>
-                                <span>Automação</span><span>Pagamentos</span>
-                                <span>Gestão de e-mail corporativo</span><span>Administração</span>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="col-lg-6">
-                        <article class="experience-card reveal h-100">
-                            <div class="experience-top">
-                                <span class="period">Anterior, 2025</span>
-                                <span class="tag">Infraestrutura</span>
-                            </div>
-                            <h3>Diebold Nixdorf</h3>
-                            <p class="role">Técnico em Informática</p>
-                            <p>
-                                Instalação e manutenção de computadores, notebooks, impressoras
-                                e equipamentos de autoatendimento, além de instalação de sistemas
-                                e suporte técnico.
-                            </p>
-                            <div class="skills">
-                                <span>Software</span><span>Instalação</span><span>Manutenção</span>
-                                <span>Sistemas Operacionais</span><span>Suporte técnico</span>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="projetos" class="section content-section projects-section container">
-            <div class="section-heading reveal">
-                <span class="section-number">03</span>
-                <div><p class="eyebrow">CRIAÇÕES</p><h2>Projetos</h2></div>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4">
-                    <article class="project-card reveal h-100">
-                        <div class="project-number">01</div>
-                        <h3>Automação de processos</h3>
-                        <p>Scripts e ferramentas para automatizar tarefas repetitivas, integrar informações e reduzir trabalho manual em rotinas administrativas.</p>
-                        <div class="project-footer"><span>Python · JavaScript</span><a href="https://github.com/0xC0002" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
-                    </article>
-                </div>
-                <div class="col-lg-4">
-                    <article class="project-card reveal h-100">
-                        <div class="project-number">02</div>
-                        <h3>Espelho PagNET</h3>
-                        <p>Ferramenta criada para facilitar conferências e operações relacionadas ao fluxo de pagamentos, com foco em agilidade e redução de tarefas repetitivas.</p>
-                        <div class="project-footer"><span>Python · Tkinter</span><a href="https://github.com/0xC0002" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
-                    </article>
-                </div>
-                <div class="col-lg-4">
-                    <article class="project-card reveal h-100">
-                        <div class="project-number">03</div>
-                        <h3>Projetos Web</h3>
-                        <p>Experimentos e aplicações web desenvolvidos para explorar interfaces, automações, JavaScript e integração entre diferentes tecnologias.</p>
-                        <div class="project-footer"><span>HTML · CSS · JavaScript</span><a href="" target="_blank" rel="noopener noreferrer">Portfólio ↗</a></div>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <section class="skills-marquee" aria-label="Habilidades">
-            <div class="marquee-track">
-                <span>Tecnologia</span><b>·</b><span>Administração</span><b>·</b><span>Excel</span><b>·</b>
-                <span>Power BI</span><b>·</b><span>PowerPoint</span><b>·</b><span>Suporte técnico</span><b>·</b>
-                <span>Inglês</span><b>·</b><span>Pagamentos</span><b>·</b><span>Automação</span><b>·</b>
-                <span>Inovador</span><b>·</b><span>Dados</span><b>·</b>
-                <span>Tecnologia</span><b>·</b><span>Administração</span><b>·</b><span>Excel</span><b>·</b>
-                <span>Power BI</span><b>·</b><span>PowerPoint</span><b>·</b><span>Suporte técnico</span><b>·</b>
-                <span>Inglês</span><b>·</b><span>Pagamentos</span><b>·</b><span>Automação</span><b>·</b>
-                <span>Inovador</span><b>·</b><span>Dados</span><b>·</b>
-            </div>
-        </section>
-    </main>
-    <footer class="footer container">
-        <a href="#inicio" class="back-top">Voltar ao início <i class="bi bi-arrow-up"></i></a>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9H09JcYn3nv7wiPVlz7YYjW7R4cQkC+hVqc2pM8ODewa9r9" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-</body>
-</html>
+<section id="formacao" class="section container">
+<div class="section-heading reveal"><span class="section-number">01</span><div><p class="eyebrow">FORMAÇÃO</p><h2>Formação Acadêmica</h2></div></div>
+<div class="timeline">
+<article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">Em andamento</div>
+<div class="academic-card"><div class="academic-brand"><img src="./assets/uvalogo.png" alt="Logo da Universidade Veiga de Almeida"></div>
+<div class="academic-main"><div class="academic-head"><div><h3>Análise e Desenvolvimento de Sistemas</h3><p class="institution">Universidade Veiga de Almeida — UVA</p></div><span class="course-status current">Em andamento</span></div>
+<p>Formação voltada para desenvolvimento de software, lógica, banco de dados e construção de soluções tecnológicas.</p>
+<div class="expected-date"><i class="bi bi-calendar3"></i>Conclusão prevista: <strong>mai/2029</strong></div></div></div></article>
+<article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">Cursos extracurriculares</div>
+<div class="row g-3">
+<div class="col-md-4"><button class="course-card h-100" type="button" data-bs-toggle="modal" data-bs-target="#pythonModal"><div class="course-card-top"><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Senac_logo.svg" alt="SENAC"><i class="bi bi-arrow-up-right-circle"></i></div><span class="course-status">Finalizado</span><h3>Programação em Python</h3><p class="institution">SENAC</p><p class="course-mode"><i class="bi bi-moon-stars"></i> Presencial · Noturno</p><span class="course-click">Ver detalhes <i class="bi bi-arrow-right"></i></span></button></div>
+<div class="col-md-4"><button class="course-card h-100" type="button" data-bs-toggle="modal" data-bs-target="#dataModal"><div class="course-card-top"><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Senac_logo.svg" alt="SENAC"><i class="bi bi-arrow-up-right-circle"></i></div><span class="course-status">Finalizado</span><h3>Analista de Dados</h3><p class="institution">SENAC</p><p class="course-mode"><i class="bi bi-moon-stars"></i> Presencial · Noturno</p><span class="course-click">Ver detalhes <i class="bi bi-arrow-right"></i></span></button></div>
+<div class="col-md-4"><button class="course-card h-100" type="button" data-bs-toggle="modal" data-bs-target="#excelModal"><div class="course-card-top"><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Senac_logo.svg" alt="SENAC"><i class="bi bi-arrow-up-right-circle"></i></div><span class="course-status">Finalizado</span><h3>Excel com IA</h3><p class="institution">SENAC</p><p class="course-mode"><i class="bi bi-moon-stars"></i> Presencial · Noturno</p><span class="course-click">Ver detalhes <i class="bi bi-arrow-right"></i></span></button></div>
+</div></article></div></section>
+
+<section id="experiencias" class="section experience-section"><div class="container"><div class="section-heading reveal"><span class="section-number">02</span><div><p class="eyebrow">TRAJETÓRIA</p><h2>Experiências Profissionais</h2></div></div><div class="row g-4">
+<div class="col-lg-6"><article class="experience-card reveal h-100"><div class="experience-top"><span>1 ano e 6 meses</span><span class="tag">Tecnologia &amp; Administração</span></div><h3>MAG Seguros</h3><p class="role">Gestão e Governança de TI</p><p>Gestão de pagamentos de contratos de tecnologia, relacionamento com fornecedores, análise de documentos e apoio a processos administrativos.</p><div class="skills"><span>Excel</span><span>Power BI</span><span>PowerPoint</span><span>Automação</span><span>Pagamentos</span><span>Gestão de e-mail corporativo</span><span>Administração</span></div></article></div>
+<div class="col-lg-6"><article class="experience-card reveal h-100"><div class="experience-top"><span>Anterior, 2025</span><span class="tag">Infraestrutura</span></div><h3>Diebold Nixdorf</h3><p class="role">Técnico em Informática</p><p>Instalação e manutenção de computadores, notebooks, impressoras e equipamentos de autoatendimento, além de instalação de sistemas e suporte técnico.</p><div class="skills"><span>Software</span><span>Instalação</span><span>Manutenção</span><span>Sistemas Operacionais</span><span>Suporte técnico</span></div></article></div>
+</div></div></section>
+
+<section id="projetos" class="section container"><div class="section-heading reveal"><span class="section-number">03</span><div><p class="eyebrow">CRIAÇÕES</p><h2>Projetos</h2></div></div><div class="row g-4">
+<div class="col-lg-4"><article class="project-card reveal h-100"><div class="project-number">01</div><h3>Automação de processos</h3><p>Scripts e ferramentas para automatizar tarefas repetitivas, integrar informações e reduzir trabalho manual em rotinas administrativas.</p><div class="project-footer"><span>Python · JavaScript</span><a href="https://github.com/0xC0002" target="_blank" rel="noopener">GitHub ↗</a></div></article></div>
+<div class="col-lg-4"><article class="project-card reveal h-100"><div class="project-number">02</div><h3>Espelho PagNET</h3><p>Ferramenta criada para facilitar conferências e operações relacionadas ao fluxo de pagamentos, com foco em agilidade e redução de tarefas repetitivas.</p><div class="project-footer"><span>Python · Tkinter</span><a href="https://github.com/0xC0002" target="_blank" rel="noopener">GitHub ↗</a></div></article></div>
+<div class="col-lg-4"><article class="project-card reveal h-100"><div class="project-number">03</div><h3>Projetos Web</h3><p>Experimentos e aplicações web desenvolvidos para explorar interfaces, automações, JavaScript e integração entre tecnologias.</p><div class="project-footer"><span>HTML · CSS · JavaScript</span><a href="https://brunoaf.dev" target="_blank" rel="noopener">Portfólio ↗</a></div></article></div>
+</div></section>
+
+<section class="skills-marquee"><div class="marquee-track"><div class="marquee-group">
+<span>Tecnologia</span><b>·</b><span>Administração</span><b>·</b><span>Excel</span><b>·</b><span>Power BI</span><b>·</b><span>PowerPoint</span><b>·</b><span>Suporte técnico</span><b>·</b><span>Inglês</span><b>·</b><span>Pagamentos</span><b>·</b><span>Automação</span><b>·</b><span>Inovador</span><b>·</b><span>Dados</span><b>·</b>
+</div><div class="marquee-group" aria-hidden="true">
+<span>Tecnologia</span><b>·</b><span>Administração</span><b>·</b><span>Excel</span><b>·</b><span>Power BI</span><b>·</b><span>PowerPoint</span><b>·</b><span>Suporte técnico</span><b>·</b><span>Inglês</span><b>·</b><span>Pagamentos</span><b>·</b><span>Automação</span><b>·</b><span>Inovador</span><b>·</b><span>Dados</span><b>·</b>
+</div></div></section>
+</main>
+<footer class="footer container"><a href="#inicio">Voltar ao início <i class="bi bi-arrow-up"></i></a></footer>
+
+<div class="modal fade" id="pythonModal" tabindex="-1"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content course-modal"><div class="modal-header"><div><span class="modal-kicker">SENAC · FINALIZADO</span><h2>Programação em Python</h2></div><button class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button></div><div class="modal-body"><p>Formação prática em programação, desenvolvimento de aplicações e integração entre tecnologias, passando da lógica ao desenvolvimento de sistemas.</p><h3>Habilidades e ferramentas</h3><div class="modal-skills"><span>Python</span><span>JavaScript</span><span>Django</span><span>SQL</span></div></div></div></div></div>
+<div class="modal fade" id="dataModal" tabindex="-1"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content course-modal"><div class="modal-header"><div><span class="modal-kicker">SENAC · FINALIZADO</span><h2>Analista de Dados</h2></div><button class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button></div><div class="modal-body"><p>Formação focada em tratamento, análise e interpretação de dados, usando programação e bibliotecas para manipulação e exploração de informações.</p><h3>Habilidades e ferramentas</h3><div class="modal-skills"><span>Python</span><span>NumPy</span><span>SQL</span><span>Pandas</span></div></div></div></div></div>
+<div class="modal fade" id="excelModal" tabindex="-1"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content course-modal"><div class="modal-header"><div><span class="modal-kicker">SENAC · FINALIZADO</span><h2>Excel com IA</h2></div><button class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button></div><div class="modal-body"><p>Curso com conteúdo de Excel até o nível intermediário, incluindo fórmulas, tabelas, gráficos e recursos de Inteligência Artificial.</p><h3>Habilidades e ferramentas</h3><div class="modal-skills"><span>Excel</span><span>IA</span><span>Fórmulas</span><span>Tabelas</span><span>Gráficos</span></div></div></div></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script><script src="script.js"></script>
+</body></html>
